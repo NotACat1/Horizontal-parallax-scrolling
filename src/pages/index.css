@@ -1,9 +1,6 @@
 /* normalize.css - resetting CSS styles */
 @import url("../vendor/normalize/normalize.css");
 
-/* Connecting the Montserrat font group */
-@import url("../vendor/fonts/Montserrat/montserrat.css");
-
 /* root */
 @import url("../blocks/root/root.css");
 
