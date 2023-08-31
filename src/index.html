@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Кодировка и шапка страницы -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- favicon -->
+  <link rel="apple-touch-icon" href="<%=require('./images/favicon/apple-touch-icon.png')%>">
+  <link rel="icon" href="<%=require('./images/favicon/favicon.ico')%>" sizes="16x16" type="image/x-icon">
+
+  <!-- Метатеги для браузера -->
+  <meta name="description" content="На этом вебсайте вы можете увидеть, как библиотека Swiper раскрывает перед вами свой потенциал, демонстрируя впечатляющие возможности создания горизонтального слайдера.">
+  <meta name="keywords" content="HTML5, CSS, JavaScript, Particles, Swiper">
+  <meta name="author" content="NotACat">
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Horizontal parallax scrolling">
+  <meta property="og:description" content="На этом вебсайте вы можете увидеть, как библиотека Swiper раскрывает перед вами свой потенциал, демонстрируя впечатляющие возможности создания горизонтального слайдера.">
+  <meta property="og:url" content="https://github.com/NotACat1">
+  <meta property="og:image" content="https://im.wampi.ru/2023/08/29/main.md.jpg">
+  <meta property="og:site_name" content="NotACat">
+  <meta property="og:locale" content="ru_RU">
+
+  <title>Horizontal parallax scrolling</title>
+</head>
+<body class="root">
+	<section class="swiper slider">
+		<div class="swiper-wrapper slider__wrapper">
+			<article class="swiper-slide slider__item">
+				<div class="slider__layer" data-swiper-parallax="35%" style="background-image: url(<%=require('./images/screen-1/layer-back.jpg')%>)"></div>
+				<div class="slider__layer" data-swiper-parallax="25%" style="background-image: url(<%=require('./images/screen-1/layer-middle.png')%>)"></div>
+				<canvas id="canvas-1" class="particles slider__layer" data-swiper-parallax="18%" data-color="#BE9164"></canvas>
+				<div class="slider__layer" data-swiper-parallax="14%" style="background-image: url(<%=require('./images/screen-1/layer-front.png')%>)"></div>
+			</article>
+			<article class="swiper-slide slider__item">
+				<div class="slider__layer" data-swiper-parallax="40%" style="background-image: url(<%=require('./images/screen-2/layer-back.jpg')%>)"></div>
+				<div class="slider__layer" data-swiper-parallax="34%" style="background-image: url(<%=require('./images/screen-2/layer-gera.png')%>)"></div>
+				<div class="slider__layer" data-swiper-parallax="30%" style="background-image: url(<%=require('./images/screen-2/layer-yen.png')%>)"></div>
+				<canvas id="canvas-2" class="particles slider__layer" data-swiper-parallax="20%" data-color="#525A6D"></canvas>
+				<div class="slider__layer" data-swiper-parallax="14%" style="background-image: url(<%=require('./images/screen-2/layer-front.png')%>)"></div>
+			</article>
+			<article class="swiper-slide slider__item">
+				<div class="slider__layer" data-swiper-parallax="48%" style="background-image: url(<%=require('./images/screen-3/layer-back.jpg')%>)"></div>
+				<div class="slider__layer" data-swiper-parallax="35%" style="background-image: url(<%=require('./images/screen-3/layer-middle.png')%>)"></div>
+				<div class="slider__layer" data-swiper-parallax="29%" style="background-image: url(<%=require('./images/screen-3/layer-ciri.png')%>)"></div>
+				<canvas id="canvas-3" class="particles slider__layer" data-swiper-parallax="25%" data-color="#938086"></canvas>
+				<div class="slider__layer" data-swiper-parallax="16%" style="background-image: url(<%=require('./images/screen-3/layer-front.png')%>)"></div>
+			</article>
+		</div>
+	</section>	
+</body>
+</html>
