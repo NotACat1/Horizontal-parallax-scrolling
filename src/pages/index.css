@@ -1,0 +1,14 @@
+/* normalize.css - resetting CSS styles */
+@import url("../vendor/normalize/normalize.css");
+
+/* Connecting the Montserrat font group */
+@import url("../vendor/fonts/Montserrat/montserrat.css");
+
+/* root */
+@import url("../blocks/root/root.css");
+
+/* slider */
+@import url("../blocks/slider/slider.css");
+@import url("../blocks/slider/__wrapper/slider__wrapper.css");
+@import url("../blocks/slider/__item/slider__item.css");
+@import url("../blocks/slider/__layer/slider__layer.css");
